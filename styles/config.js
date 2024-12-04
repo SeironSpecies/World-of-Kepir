@@ -56,7 +56,7 @@ let options = {
         itemOrder: "asc",
 
         filterColumn: 'Design Type',
-        searchFilterParams: ['ID', 'Owner', 'Designer', 'Artist', 'Rarity', 'Codename', 'Traits', 'Secondary Species', 'Stats'],
+        searchFilterParams: ['ID', 'Owner', 'Designer', 'Artist', 'Rarity', 'Codename', 'Traits', 'Secondary Species', 'Level'],
         fauxFolderColumn: 'Species',
 
     },
