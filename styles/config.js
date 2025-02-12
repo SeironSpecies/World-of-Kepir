@@ -67,7 +67,7 @@ let options = {
 
  /* Egg Masterlist
     /* --------------------------------------------------------------- */
-    eggMasterlist: {
+    egg: {
 
         sheetPage: sheetPages.eggMasterlist,
         logSheetPage: sheetPages.masterlistLog,
