@@ -735,6 +735,36 @@ const frontPage = (options) => {
         }
     }; addDesigns();
 
+     // Egg Designs
+    let addDesigns = async () => {
+        if ($("#design-gallery").length != 0) {
+            if (charadexInfo.numOfDesigns != 0) {
+
+                // Grab dah sheet
+                let designs = await fetchSheet(charadexInfo.eggsSheetPage);
+
+                // Filter out any MYO slots, reverse and pull the first 4
+                let selectDesigns = designs.filter((i) => { return i.designtype != 'MYO Slot' }).reverse().slice(0, charadexInfo.numOfDesigns);
+
+                // Add cardlink
+                let cardKey = Object.keys(selectDesigns[0])[0];
+                for (var i in selectDesigns) { selectDesigns[i].cardlink = folderURL + "egg.html?" + cardKey + "=" + selectDesigns[i][cardKey]; }
+
+                // Nyoom
+                let galleryOptions = {
+                    item: 'design-item',
+                    valueNames: sheetArrayKeys(selectDesigns),
+                };
+
+                // Render Gallery
+                let charadex = new List('design-gallery', galleryOptions, selectDesigns);
+
+            } else {
+                $("#design-gallery").hide();
+            }
+        }
+    }; addDesigns();
+
 }; 
 
 
