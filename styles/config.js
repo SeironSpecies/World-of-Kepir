@@ -11,6 +11,7 @@ let sheetID = "1e3_XTFzUgt1Lx4Kxk2Q8yQYRx_k2QG9HAx-7qGwb-XQ";
 let sheetPages = {
 
     masterlist: "masterlist",
+    eggMasterlist: "egg masterlist",
     masterlistLog: "masterlist log",
     inventory: "inventory",
     inventoryLog: "inventory log",
@@ -61,7 +62,23 @@ let options = {
 
     },
 
+ /* Egg Masterlist
+    /* --------------------------------------------------------------- */
+    eggMasterlist: {
 
+        sheetPage: sheetPages.eggMasterlist,
+        logSheetPage: sheetPages.masterlistLog,
+
+        itemAmount: 12,
+        itemOrder: "asc",
+
+        filterColumn: 'Design Type',
+        searchFilterParams: ['Egg Batch', 'Egg', 'Owner', 'Rarity', 'Traits', 'Secondary Species'],
+        fauxFolderColumn: 'Species',
+
+    },
+
+    
     /* Item Catalogue
     /* --------------------------------------------------------------- */
     items: {
