@@ -11,7 +11,7 @@ let sheetID = "1e3_XTFzUgt1Lx4Kxk2Q8yQYRx_k2QG9HAx-7qGwb-XQ";
 let sheetPages = {
 
     masterlist: "masterlist",
-    eggMasterlist: "egg masterlist",
+    eggs: "eggs",
     masterlistLog: "masterlist log",
     inventory: "inventory",
     inventoryLog: "inventory log",
@@ -43,7 +43,7 @@ let options = {
         masterlistSheetPage: sheetPages.masterlist,
         numOfDesigns: 4,
         
-        eggMasterlistSheetPage: sheetPages.eggMasterlist,
+        eggMasterlistSheetPage: sheetPages.eggs,
         numOfDesigns: 4,
     
     },
@@ -69,7 +69,7 @@ let options = {
     /* --------------------------------------------------------------- */
     egg: {
 
-        sheetPage: sheetPages.eggMasterlist,
+        sheetPage: sheetPages.eggs,
         logSheetPage: sheetPages.masterlistLog,
 
         itemAmount: 12,
