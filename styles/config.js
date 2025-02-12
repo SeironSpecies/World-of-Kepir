@@ -42,6 +42,9 @@ let options = {
 
         masterlistSheetPage: sheetPages.masterlist,
         numOfDesigns: 4,
+        
+        eggMasterlistSheetPage: sheetPages.eggMasterlist,
+        numOfDesigns: 4,
     
     },
 
