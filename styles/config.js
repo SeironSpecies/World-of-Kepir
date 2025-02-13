@@ -16,7 +16,7 @@ let sheetPages = {
     inventory: "inventory",
     inventoryLog: "inventory log",
     items: "items",
-    theEmporium: "the emporium",
+    emporium: "emporium",
     traits: "traits",
     prompts: "prompts",
     faq: "faq",
@@ -100,7 +100,7 @@ let options = {
 
     /* the emporium
     /* --------------------------------------------------------------- */
-    theemporium: {
+    emporium: {
 
         sheetPage: sheetPages.items,
     
