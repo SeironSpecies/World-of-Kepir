@@ -102,7 +102,7 @@ let options = {
     /* --------------------------------------------------------------- */
     emporium: {
 
-        sheetPage: sheetPages.items,
+        sheetPage: sheetPages.emporium,
     
         itemAmount: 24,
         itemOrder: "asc",
