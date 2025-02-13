@@ -43,7 +43,7 @@ let options = {
         masterlistSheetPage: sheetPages.masterlist,
         numOfDesigns: 4,
         
-        eggMasterlistSheetPage: sheetPages.eggs,
+        eggsSheetPage: sheetPages.eggs,
         numOfDesigns: 4,
     
     },
@@ -67,7 +67,7 @@ let options = {
 
  /* Egg Masterlist
     /* --------------------------------------------------------------- */
-    egg: {
+    eggs: {
 
         sheetPage: sheetPages.eggs,
         logSheetPage: sheetPages.masterlistLog,
