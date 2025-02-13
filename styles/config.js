@@ -16,6 +16,7 @@ let sheetPages = {
     inventory: "inventory",
     inventoryLog: "inventory log",
     items: "items",
+    theEmporium: "the emporium",
     traits: "traits",
     prompts: "prompts",
     faq: "faq",
@@ -85,6 +86,21 @@ let options = {
     /* Item Catalogue
     /* --------------------------------------------------------------- */
     items: {
+
+        sheetPage: sheetPages.items,
+    
+        itemAmount: 24,
+        itemOrder: "asc",
+    
+        filterColumn: 'Rarity',
+        searchFilterParams: ['Item'],
+        fauxFolderColumn: 'Type',
+    
+    },
+
+    /* the emporium
+    /* --------------------------------------------------------------- */
+    theemporium: {
 
         sheetPage: sheetPages.items,
     
