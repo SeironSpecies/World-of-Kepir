@@ -164,6 +164,7 @@ let sheetArrayKeys = (arr) => {
     if (itemArray.indexOf('parenttwolink')) itemArray[itemArray.indexOf('parenttwolink')] = { name: 'parenttwolink', attr: 'href' };
     if (itemArray.indexOf('ownerlink')) itemArray[itemArray.indexOf('ownerlink')] = { name: 'ownerlink', attr: 'href' };
     if (itemArray.indexOf('artistlink')) itemArray[itemArray.indexOf('artistlink')] = { name: 'artistlink', attr: 'href' };
+    if (itemArray.indexOf('designerlink')) itemArray[itemArray.indexOf('designerlink')] = { name: 'designerlink', attr: 'href' };
     if (itemArray.indexOf('thlink')) itemArray[itemArray.indexOf('thlink')] = { name: 'thlink', attr: 'href' };
     if (itemArray.indexOf('image')) itemArray[itemArray.indexOf('image')] = { name: 'image', attr: 'src' };
     return itemArray;
